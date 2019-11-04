@@ -12,6 +12,7 @@ end
 def turtle_traits(turtles)
   turtles.each do |turtle, data|
     return data[:traits]
+    end
   end
 end
 
