@@ -11,6 +11,7 @@ end
 
 def turtle_traits(turtles)
   turtles.each do |turtle, data|
+    binding.pry
     data[:traits]
   end
 end
