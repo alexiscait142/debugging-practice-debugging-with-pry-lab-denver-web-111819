@@ -10,11 +10,11 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  turtles.each do |turtle|
-    turtles[:traits]
+  turtles.each do |turtle, data|
+    data[:traits].each do |trait|
+      trait
+    end
   end
 end
 
-    # turtle[:traits].each do |trait|
-    #   trait
-    # end
+
