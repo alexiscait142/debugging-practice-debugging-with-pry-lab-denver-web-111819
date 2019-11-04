@@ -10,9 +10,8 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  turtles.each do |turtle, data|
-    binding.pry
-    data[:traits]
+  turtles.each do |turtle|
+    return turtle[:traits]
   end
 end
 
